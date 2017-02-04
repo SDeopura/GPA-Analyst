@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		4CE285321D453E66008FF6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE285311D453E66008FF6DA /* AppDelegate.swift */; };
 		4CE285371D453E66008FF6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE285351D453E66008FF6DA /* Main.storyboard */; };
-		4CE285391D453E66008FF6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE285381D453E66008FF6DA /* Assets.xcassets */; };
 		4CE2853C1D453E66008FF6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2853A1D453E66008FF6DA /* LaunchScreen.storyboard */; };
 		4CE285471D453E66008FF6DA /* CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE285461D453E66008FF6DA /* CalculatorAppTests.swift */; };
 		4CE285521D453E66008FF6DA /* CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE285511D453E66008FF6DA /* CalculatorAppUITests.swift */; };
 		4CE285601D453E8B008FF6DA /* SwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE2855F1D453E8B008FF6DA /* SwitchController.swift */; };
 		4CE285621D453F13008FF6DA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE285611D453F13008FF6DA /* Calculator.swift */; };
 		4CE285641D453F24008FF6DA /* GPACalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE285631D453F24008FF6DA /* GPACalculator.swift */; };
+		F338B3401E43368600632C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F338B33F1E43368600632C35 /* Assets.xcassets */; };
+		F338B3411E43368600632C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F338B33F1E43368600632C35 /* Assets.xcassets */; };
+		F338B3421E43368600632C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F338B33F1E43368600632C35 /* Assets.xcassets */; };
 		F3D239E61E3ECF49008AD487 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D239E51E3ECF49008AD487 /* Default-568h@2x.png */; };
 		F3D239E81E3ED4D5008AD487 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D239E71E3ED4D5008AD487 /* Default-568h@2x.png */; };
 		F3D239E91E3ED4D5008AD487 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D239E71E3ED4D5008AD487 /* Default-568h@2x.png */; };
@@ -44,7 +46,6 @@
 		4CE2852E1D453E66008FF6DA /* GPA Analyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Analyst.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE285311D453E66008FF6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE285361D453E66008FF6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CE285381D453E66008FF6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CE2853B1D453E66008FF6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CE2853D1D453E66008FF6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CE285421D453E66008FF6DA /* GPA AnalystTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPA AnalystTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +57,7 @@
 		4CE2855F1D453E8B008FF6DA /* SwitchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchController.swift; sourceTree = "<group>"; };
 		4CE285611D453F13008FF6DA /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		4CE285631D453F24008FF6DA /* GPACalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPACalculator.swift; sourceTree = "<group>"; };
+		F338B33F1E43368600632C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D239E51E3ECF49008AD487 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F3D239E71E3ED4D5008AD487 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F3F54EA11E3352C000D5E89B /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
@@ -114,8 +116,8 @@
 				4CE285311D453E66008FF6DA /* AppDelegate.swift */,
 				4CE285351D453E66008FF6DA /* Main.storyboard */,
 				F3F54EA11E3352C000D5E89B /* btn.wav */,
-				4CE285381D453E66008FF6DA /* Assets.xcassets */,
 				4CE2853A1D453E66008FF6DA /* LaunchScreen.storyboard */,
+				F338B33F1E43368600632C35 /* Assets.xcassets */,
 				4CE2853D1D453E66008FF6DA /* Info.plist */,
 				4CE2855F1D453E8B008FF6DA /* SwitchController.swift */,
 				4CE285611D453F13008FF6DA /* Calculator.swift */,
@@ -257,10 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE2853C1D453E66008FF6DA /* LaunchScreen.storyboard in Resources */,
-				4CE285391D453E66008FF6DA /* Assets.xcassets in Resources */,
 				4CE285371D453E66008FF6DA /* Main.storyboard in Resources */,
 				F3D239E61E3ECF49008AD487 /* Default-568h@2x.png in Resources */,
 				F3F54EA21E3352C000D5E89B /* btn.wav in Resources */,
+				F338B3401E43368600632C35 /* Assets.xcassets in Resources */,
 				F3D239E81E3ED4D5008AD487 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F338B3411E43368600632C35 /* Assets.xcassets in Resources */,
 				F3D239E91E3ED4D5008AD487 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F338B3421E43368600632C35 /* Assets.xcassets in Resources */,
 				F3D239EA1E3ED4D5008AD487 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.janki.gpacalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c5ebbe8c-5119-4ca6-bb6f-dc26af72bf86";
+				PROVISIONING_PROFILE = "a7895e6d-7c97-4119-a469-ff31c19f08f2";
 				PROVISIONING_PROFILE_SPECIFIER = "Calculator Distribution";
 				SWIFT_VERSION = 3.0;
 			};
@@ -470,7 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.janki.gpacalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c5ebbe8c-5119-4ca6-bb6f-dc26af72bf86";
+				PROVISIONING_PROFILE = "a7895e6d-7c97-4119-a469-ff31c19f08f2";
 				PROVISIONING_PROFILE_SPECIFIER = "Calculator Distribution";
 				SWIFT_VERSION = 3.0;
 			};

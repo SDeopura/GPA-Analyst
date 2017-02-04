@@ -48,8 +48,7 @@ class Calculator: UIViewController,UITextFieldDelegate,UIScrollViewDelegate {
             return NumberFormatter().number(from: displayLabel.text!)!.doubleValue
         }
         set {
-            // Notice how we are using a Property Setter to perform additional tasks while
-            //setting value for the property
+            
             displayLabel.text = "\(newValue)"
             isFirstDigit = true
             operation = "="
