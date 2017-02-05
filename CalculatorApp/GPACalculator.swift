@@ -22,8 +22,6 @@ class GPACalculator: UIViewController,UITextFieldDelegate,UIScrollViewDelegate {
     
     @IBOutlet var h4: UITextField!
     
-    
-    
     @IBOutlet var s1: UITextField!
     
     @IBOutlet var s2: UITextField!
@@ -49,7 +47,8 @@ class GPACalculator: UIViewController,UITextFieldDelegate,UIScrollViewDelegate {
     var points : Float = 0
     var hours: Float = 0
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         
         super.viewDidLoad()
         
@@ -59,6 +58,9 @@ class GPACalculator: UIViewController,UITextFieldDelegate,UIScrollViewDelegate {
 
         
         // Do any additional setup after loading the view.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(GPACalculator.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
         self.gp1.delegate = self;
         self.gp2.delegate = self;
         self.gp3.delegate = self;
@@ -67,7 +69,10 @@ class GPACalculator: UIViewController,UITextFieldDelegate,UIScrollViewDelegate {
 
     }
     
-    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
     
     override func didReceiveMemoryWarning() {
         
